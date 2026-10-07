@@ -11,6 +11,8 @@ npm run dev
 
 Ouvrir http://localhost:3000/cv. La route `/` redirige vers `/cv`.
 
+Le sélecteur FR / EN ouvre la version française sur `/cv` ou la version anglaise sur `/cv/en`. Chaque URL peut être partagée directement. L’export PDF utilise la langue affichée et masque le sélecteur.
+
 ## Export PDF
 
 Cliquer sur « Exporter en PDF », puis choisir « Enregistrer au format PDF » dans Chrome. Format A4, échelle 100 %, marges aucune, en-têtes et pieds de page désactivés. Le bouton et les éléments hors de la feuille sont masqués à l’impression.
